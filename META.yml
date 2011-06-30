@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               AI-Termites
-version:            0.01
+version:            0.02
 abstract:           Artificial termites simulation
 author:
     - Salvador Fandino <sfandino@yahoo.com>
@@ -15,6 +15,7 @@ requires:
     Math::Vector::Real:   0.06
     Math::Vector::Real::kdTree:  0.03
     Math::Vector::Real::MultiNormalMixture:  0.01
+    Math::Vector::Real::Random:  0.02
 no_index:
     directory:
         - t
